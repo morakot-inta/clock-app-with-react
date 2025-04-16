@@ -15,8 +15,8 @@ const Clock = () => {
 
   return (
     <>
-      <div className="clock">
-        <h1>{time.toLocaleTimeString()}</h1>
+      <div className="clock border border-2 border-gray-500 rounded-lg p-4 bg-green-500 text-4xl"> 
+        <h1 className="text-red-500">{time.toLocaleTimeString()}</h1>
     </div>
     </>
   )
